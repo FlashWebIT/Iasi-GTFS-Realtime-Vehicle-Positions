@@ -22,4 +22,6 @@ node tester.js
 
 Protocol buffer GTFS Realtime feed is accessible at http://localhost:3000/positions
 
+![Screenshot](screen.png "Screenshot")
+
 You can plug your favourite transit app to that - OpenTripPlanner, etc.
