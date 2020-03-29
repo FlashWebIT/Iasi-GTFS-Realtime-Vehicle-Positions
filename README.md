@@ -25,3 +25,6 @@ Protocol buffer GTFS Realtime feed is accessible at http://localhost:3000/positi
 ![Screenshot](screen.png "Screenshot")
 
 You can plug your favourite transit app to that - OpenTripPlanner, etc.
+
+### To do
+- [ ] Calculate speed between requests to complete missing field
