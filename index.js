@@ -4,7 +4,7 @@ var request = require('request'),
   schedule = require('node-schedule'),
   app = express();
 
-var globCode1,globCode2,globCode3,globCode4;
+var globCode1;
 
 function updateFeed(){
 
