@@ -16,7 +16,7 @@ function updateFeed(){
         header:{
         gtfsRealtimeVersion: "1.0",
         incrementality: 0,
-        timestamp:Math.round(Date.now()/1000)+7200
+        timestamp:Math.round(Date.now()/1000)
       },
       entity:[
         
