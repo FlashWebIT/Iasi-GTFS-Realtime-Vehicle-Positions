@@ -64,7 +64,7 @@ request({
 });
 }
 
-app.get('/positions', function(req, res){ // editor page
+app.get('/positions', function(req, res){
   console.log('Request protobuf');
   res.send(globCode1);
 });
