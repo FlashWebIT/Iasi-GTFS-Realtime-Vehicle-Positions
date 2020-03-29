@@ -47,18 +47,6 @@ request({
             throw Error(errMsg);
         var message = FeedMessage.create(payload);
         globCode1 = (FeedMessage.encode(message).finish());
-
-        FeedMessage = root.lookupType("transit_realtime.FeedMessage");
-        payload = { 
-          header:{
-          gtfsRealtimeVersion: "1.0",
-          incrementality: 0,
-          timestamp:Math.round(Date.now()/1000)+7200
-        },
-        entity:[
-          
-        ]
-      };
     }
   });
 });
