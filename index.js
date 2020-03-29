@@ -23,8 +23,7 @@ function updateFeed(){
       ]
     };
 
-    // tfc
-    request({
+request({
   method: 'GET',
   url: 'https://gps.sctpiasi.ro/json',
   encoding: "UTF-8",
